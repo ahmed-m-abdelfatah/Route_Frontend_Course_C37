@@ -1,0 +1,28 @@
+.clear-fix {
+  clear: both;
+}
+
+.container {
+  background-color: #f00;
+}
+
+.container div.item {
+  width: 30%;
+  text-align: center;
+  background-color: black;
+  float: left;
+}
+
+.container div.item img {
+  width: 100%;
+}
+
+.container div.item h2 {
+  background-color: gray;
+  color: #fff;
+}
+
+.container div.item p {
+  background-color: gray;
+  color: #fff;
+}

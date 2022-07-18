@@ -1,0 +1,60 @@
+/* portfolio-details-page */
+/* global-rules */
+a {
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: color var(--main-transition);
+  transition: color var(--main-transition);
+}
+
+a:hover {
+  color: var(--main-color);
+}
+
+/* header */
+.aa-intro {
+  background-image: url('../img/overlay-bg.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: unset;
+}
+
+.aa-intro .aa-transparent {
+  background-color: rgba(0, 120, 255, 0.7);
+  height: 50vh;
+}
+
+/* aa-main */
+.aa-main {
+  background-color: var(--section-bg);
+}
+
+.aa-main .aa-content img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.aa-main .aa-content .aa-carousel-indicators {
+  bottom: -50px;
+}
+
+.aa-main .aa-content .aa-carousel-indicators > * {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+  -webkit-transition: all var(--main-transition);
+  transition: all var(--main-transition);
+}
+
+.aa-main .aa-content .aa-carousel-indicators > *.active {
+  background-color: var(--main-color);
+}
+
+.aa-main aside ul {
+  list-style-type: none;
+  padding: 0;
+}

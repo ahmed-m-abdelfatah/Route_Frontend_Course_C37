@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="background-color: tomato">
+        <legend style="background-color: deepskyblue">Personal Data</legend>
+        <fieldset style="background-color: lightsalmon">
+          <legend style="background-color: deepskyblue; height: 80px; line-height: 80px; font-weight: bold">
+            Your Name
+          </legend>
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="first-name">First Name</label></td>
+                <td>: <input type="text" placeholder="ahmed" name="firstName" id="first-name" /></td>
+              </tr>
+              <tr>
+                <td><label for="last-name">Last Name</label></td>
+                <td>: <input type="text" placeholder="ahmed" name="lastName" id="last-name" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+        <br />
+        <br />
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="phone">Phone Number</label></td>
+              <td>: <input type="number" name="phone" id="phone" inputmode="tel" /></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email</label></td>
+              <td>: <input type="email" name="email" id="email" inputmode="email" /></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password</label></td>
+              <td>: <input type="password" name="password" id="password" /></td>
+            </tr>
+            <tr>
+              <td><label for="re-password">Re-Password</label></td>
+              <td>: <input type="password" name="password" id="re-password" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <input type="radio" name="gender" value="male" id="male" />
+                <label for="male">Male</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="gender" value=female" id="female" />
+                <label for="female">Female</label>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <input type="checkbox" name="tech" value="frontend" id="frontend" />
+                <label for="frontend">Frontend</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" name="tech" value="backend" id="backend" />
+                <label for="backend">Backend</label>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+        <select name="languages">
+          <optgroup label="Frontend">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Javascript">Javascript</option>
+          </optgroup>
+          <optgroup label="Backend">
+            <option value="PHP">PHP</option>
+            <option value="C#">C#</option>
+            <option value="Nodejs">Nodejs</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <br />
+        <input
+          type="submit"
+          value="Submit"
+          style="background-color: black; color: white; text-transform: uppercase; font-weight: bold"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+/* blog-single */
+/* global-rules */
+.aa-main-heading-alt {
+  border-left: 5px solid var(--main-color);
+}
+
+.aa-main-heading-alt::before {
+  content: '';
+  display: none;
+}
+
+/* aa-main */
+.aa-main {
+  background-color: var(--section-bg);
+}
+
+.aa-main .aa-content a {
+  color: var(--main-color);
+}
+
+.aa-main .aa-content blockquote {
+  border-left: 5px solid var(--main-color);
+}
+
+.aa-main .aa-content .aa-post-tags {
+  border-left: 5px solid var(--main-color);
+}
+
+.aa-main aside ul {
+  list-style-type: circle;
+}
+
+.aa-main aside ul.aa-tags {
+  list-style-type: none;
+}

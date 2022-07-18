@@ -1,0 +1,401 @@
+/* global-rules */
+/* Hide scroll bar search*/
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+/* home */
+.home {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../img/asset2.ed25c7587f099684d6ff.jpeg);
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  padding: 40px 0;
+}
+
+@media (max-width: 992px) {
+  .home {
+    height: auto;
+  }
+}
+
+.home .container {
+  margin-top: 150px;
+}
+
+.home .container p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.home .container h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.home .container button {
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .home .container button {
+    margin-bottom: 10px;
+  }
+}
+
+.home .container button.one {
+  background: #8e7754;
+  color: #fff;
+}
+
+.home .container button.two {
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* about-us*/
+.about-us {
+  padding: 40px 0;
+}
+
+.about-us .container img {
+  float: left;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .about-us .container img {
+    width: 100%;
+  }
+}
+
+.about-us .container .box {
+  text-align: center;
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .about-us .container .box {
+    width: 100%;
+  }
+}
+
+.about-us .container .box h2 {
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .about-us .container .box h2 {
+    margin: 30px 0;
+  }
+}
+
+.about-us .container .box p {
+  color: #686868;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.about-us .container .box ul li {
+  height: 34px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.about-us .container .box ul li img {
+  float: left;
+  width: 34px;
+  border-radius: 50%;
+  border: 0.5px solid #929292;
+}
+
+.about-us .container .box ul li p {
+  padding-left: 50px;
+}
+
+/* our-location */
+.our-location {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+.our-location .container .box {
+  margin-top: 20px;
+  padding-right: 20px;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .our-location .container .box {
+    width: 100%;
+  }
+}
+
+.our-location .container .box h2 {
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+.our-location .container .box p {
+  color: #686868;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.our-location .container img {
+  float: right;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .our-location .container img {
+    width: 100%;
+  }
+}
+
+/* our-baking */
+.our-baking {
+  padding: 40px 0;
+}
+
+.our-baking .container {
+  text-align: center;
+}
+
+.our-baking .container h2 {
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+.our-baking .container p {
+  color: #686868;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.our-baking .container .products .product {
+  float: left;
+  width: 33.333%;
+  padding: 15px;
+}
+
+@media (max-width: 767px) {
+  .our-baking .container .products .product {
+    width: 100%;
+  }
+}
+
+.our-baking .container .products .product img {
+  width: 100%;
+}
+
+.our-baking .container .products .product h4 {
+  margin: 10px 0;
+}
+
+.our-baking .container .products .product p {
+  color: #686868;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* contact-information*/
+.contact-information {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+.contact-information .container .box {
+  text-align: center;
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .contact-information .container .box {
+    width: 100%;
+  }
+}
+
+.contact-information .container .box h2 {
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+.contact-information .container .box p {
+  color: #686868;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.contact-information .container .box ul li {
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-information .container .box ul li img {
+  float: left;
+  width: 34px;
+  border-radius: 50%;
+  border: 0.5px solid #929292;
+}
+
+.contact-information .container .box ul li p {
+  padding-left: 50px;
+}
+
+.contact-information .container > img {
+  float: right;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .contact-information .container > img {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* footer */
+.footer {
+  color: white;
+}
+
+.footer .data {
+  background-color: #403d38;
+  padding: 40px 0;
+}
+
+.footer .data .container .box {
+  width: 25%;
+  float: left;
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  .footer .data .container .box {
+    width: 100%;
+    padding: 15px 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .footer .data .container .box {
+    width: 50%;
+    padding: 15px 5px;
+  }
+}
+
+.footer .data .container .box h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  .footer .data .container .box h2 {
+    text-align: center;
+  }
+}
+
+.footer .data .container .box p {
+  line-height: 2;
+  font-size: 18px;
+  color: #969696;
+}
+
+.footer .data .container .box ul {
+  font-size: 18px;
+  color: #969696;
+}
+
+.footer .data .container .box ul li {
+  line-height: 34px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 10px;
+}
+
+.footer .data .container .box ul li img {
+  float: left;
+  width: 34px;
+  border-radius: 50%;
+  border: 0.5px solid #929292;
+}
+
+.footer .data .container .box ul li p {
+  padding-left: 50px;
+}
+
+.footer .bottom {
+  background-color: #353330;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer .bottom .container img {
+  width: 20%;
+}
+
+@media (max-width: 767px) {
+  .footer .bottom .container img {
+    width: 80%;
+  }
+}
+
+.footer .bottom .container p {
+  font-size: 14px;
+  color: #969696;
+  margin: 20px 0;
+}
+
+.footer .bottom .container .icons img {
+  margin-right: 10px;
+  width: 34px;
+  border-radius: 50%;
+  border: 0.5px solid #929292;
+}
