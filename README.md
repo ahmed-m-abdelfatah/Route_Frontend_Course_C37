@@ -86,6 +86,9 @@ Every session was around 3hr
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
 <img src="images/javascript.svg" alt="javascript" width="40" height="40"/>
 </a>
+<a href="https://getbootstrap.com" target="_blank">
+<img src="images/bootstrap.svg" alt="javascript" width="40" height="40"/>
+</a>
 <a href="https://jquery.com" target="_blank">
 <img src="images/jquery.svg" alt="javascript" width="40" height="40"/>
 </a>
