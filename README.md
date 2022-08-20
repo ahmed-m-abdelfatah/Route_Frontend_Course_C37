@@ -98,3 +98,6 @@ Every session was around 3hr
 <a href="https://redux.js.org" target="_blank">
 <img src="images/redux.svg" alt="redux" width="40" height="40"/>
 </a>
+
+## Certificate
+![Course_Certificate](./images/certificate.jpeg)
